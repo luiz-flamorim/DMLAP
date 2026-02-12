@@ -6,6 +6,7 @@ dependencies:
   - python
   - pip
   - numpy<2
+  # PyTorch and torchvision must be compatible (e.g. 2.10 + 0.25). If you see "operator torchvision::nms does not exist", run: pip install "torchvision>=0.25"
   - pytorch
   - torchvision
   - torchaudio
